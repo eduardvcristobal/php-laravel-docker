@@ -10,10 +10,10 @@ COPY . /app
 # Install any needed packages specified in requirements.txt
 RUN apt-get update && apt-get install -y \
     libzip-dev \
-    libpq-dev \  # Install PostgreSQL development files
-&& docker-php-ext-install zip pdo_mysql pdo_pgsql \
-    && a2enmod rewrite \
-    && a2enmod headers  # Enable Apache modules
+    libpq-dev && \
+    docker-php-ext-install zip pdo_mysql pdo_pgsql && \
+    a2enmod rewrite && \
+    a2enmod headers  # Enable Apache modules
 
 # Make port 80 available to the world outside this container
 EXPOSE 80
