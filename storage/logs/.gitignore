@@ -1,0 +1,43 @@
+# Ignore the vendor directory
+/vendor
+
+# Ignore the node_modules directory
+/node_modules
+
+# Ignore the storage directory
+/storage
+
+# Ignore environment configuration files
+.env
+
+# Ignore user-specific files
+Homestead.yaml
+Homestead.json
+
+# Ignore compiled Blade templates
+*.phpstorm.meta.php
+*.phpstorm.meta.php
+
+# Ignore compiled application files
+/public/hot
+/public/storage
+/storage/*.key
+
+# Ignore Laravel Mix temporary files
+/node_modules
+npm-debug.log
+
+# Ignore PHPUnit testing directory
+/phpunit.xml
+/vendor/phpunit
+
+# Ignore IDE-specific files
+/.idea
+*.iml
+*.ipr
+*.iws
+/.vscode
+
+# Ignore Laravel Dusk specific files
+/tests/Browser/screenshots
+/tests/Browser/console

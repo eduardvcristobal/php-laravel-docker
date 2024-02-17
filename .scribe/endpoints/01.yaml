@@ -1,0 +1,21 @@
+name: 'User Management'
+description: ''
+endpoints:
+  -
+    httpMethods:
+      - POST
+    uri: api/users
+    metadata:
+      title: 'APIs for managing users'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNjI5ODc4ODRjMzhhYmI0YWVlODMzYzllZmJjNWM4Nzk5M2U4OWFhNzg2MWE4YTNjN2Q4NjBhMWE0MzljZjFkZTM3NGQ0ODZhMDZkZWQ3MGMiLCJpYXQiOjE3MDc4MDU1NTQuNDA4NTk3LCJuYmYiOjE3MDc4MDU1NTQuNDA4NTk4LCJleHAiOjE3Mzk0Mjc5NTMuNzY1OTQsInN1YiI6IjIiLCJzY29wZXMiOlsiKiJdfQ.AnxvaQhezFODdQ1Cbv32MbyJe48dyoY_zECs2cPdZSSi-G2mwns1GRUrVDarfXrof4axI0iHjVkwVGI_1cjRRf2VJIe3_JBRFyocxrzyNMFaGd1HzFJD9VjONAme5p4FELZ_g0cAcQ24VB-Am4JtDyiK0Mh8yR-mvzF7Dl76Yrnc36ymR2dEtw16HPIw2dZ8dT3ALn9kw51xoQd3VrEftYUSGFjvLHF_pieL2uXe4L7uGbP0ue_QuTpiD9iXXgcq2FITd-GCUJHYs3sZCkj2ds6q_5CVfSsaPq409bydNsBMfQ4AYE3_0hcn5y8-eCz2AL0-mMKcDVNu_mDj3PlprCu6vLXcvrNRDs0G4fRh-pHT-yiiH8boe1fBV7-UrJNT_FHCyf5-szgWHXST7WO7OVXNs4nS7V2DFtj3ih-cOkSWQQZ18-bX8v-vR_9vwTWsqFF6VO9wseBoEgOF8P7TpHubnCtf6ykmij8b85eJGsToTZoSc-5hyh_NsJXO9CzCma3uAOj7_EX-iRuAfWUQnOhhlP80iTyFcGXv3qwFei_tlH7d5rIhe7zgUUHXZr3i94F64s3iVCHIt8nb7k09_Zg5Y9rg2QorAzx5-eRdQhcGKMB3UGKt8zZXwN581r8oSPpo8xoJ_AEK8efybfuVqONewYSltVWSnLxIGlKwqBk'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses: []
+    responseFields: []
