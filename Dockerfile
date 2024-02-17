@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
     a2enmod headers  # Enable Apache modules
 
 # Make port 80 available to the world outside this container
-EXPOSE 80
+# EXPOSE 80
 
 # Define environment variables for PostgreSQL connection
 ENV DB_CONNECTION pgsql
